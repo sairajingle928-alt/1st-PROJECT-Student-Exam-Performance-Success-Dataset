@@ -958,7 +958,7 @@ if 'student_data' not in globals():
         )
 
 
-# CAGR of Pembro and other PDL1
+# CAGR of Student Exam Scores
 def cagr(start_val, end_val, time_months):
     return (end_val/start_val)**(1/(time_months/12)) - 1
 
